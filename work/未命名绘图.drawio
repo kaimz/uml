@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T05:47:32.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="mwOMPMYd0ScKBr9q3-qa" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T06:23:59.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="nvVI2REKtUVw-cM5Kd_C" version="20.6.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="898" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,17 +192,22 @@
         <mxCell id="0b40yJRrr1ERWm2AsXEs-83" value="&lt;ol&gt;&lt;li&gt;加群通知是在未加群下，被指定或者符合合作类型匹配规则&lt;/li&gt;&lt;li&gt;执行编辑不允许删除原有执行群，虽然有删除按钮（它的意义仅存在还未保存的执行群）&lt;/li&gt;&lt;li&gt;达人已经报名也可以取消指定（实际没什么意义，但是已经加群了，也无法重新分配加入其他群）&lt;/li&gt;&lt;li&gt;todo&lt;/li&gt;&lt;li&gt;展示加入执行群：&lt;br&gt;a. 在待上传节点&lt;br&gt;b. 有匹配的执行群&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="940" y="140" width="250" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-94" target="0b40yJRrr1ERWm2AsXEs-95">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-94" target="0b40yJRrr1ERWm2AsXEs-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-94" value="未加群查询逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="220" width="80" height="80" as="geometry" />
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-94" value="未加群查询逻辑" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=0;fontSize=10;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-95" target="0b40yJRrr1ERWm2AsXEs-108">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-95" target="0b40yJRrr1ERWm2AsXEs-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-95" value="查询商单绑定的执行群" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="230" width="80" height="60" as="geometry" />
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-153" value="拿到已加群人信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0b40yJRrr1ERWm2AsXEs-152">
+          <mxGeometry x="-0.0944" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-95" value="查询商单绑定的执行群，去combcneter拿到群里所有的人员信息" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="220" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-105">
           <mxGeometry relative="1" as="geometry">
@@ -217,7 +222,12 @@
         <mxCell id="0b40yJRrr1ERWm2AsXEs-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-105" target="0b40yJRrr1ERWm2AsXEs-141">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-105" value="达人合作在进行中&lt;br&gt;（未取消）" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-147" value="执行已取消" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0b40yJRrr1ERWm2AsXEs-143">
+          <mxGeometry x="-0.3259" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-105" value="达人合作在进行中&lt;br&gt;（未取消）" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1740" y="330" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-108" target="0b40yJRrr1ERWm2AsXEs-105">
@@ -231,7 +241,12 @@
         <mxCell id="0b40yJRrr1ERWm2AsXEs-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-108" target="0b40yJRrr1ERWm2AsXEs-141">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-108" value="达人需要报名审核同&lt;br&gt;（同时也意味着商单执行中）" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-146" value="报名没有通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0b40yJRrr1ERWm2AsXEs-142">
+          <mxGeometry x="-0.2583" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-108" value="达人需要报名审核同&lt;br&gt;（同时也意味着商单执行中）" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1565" y="330" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-129" target="0b40yJRrr1ERWm2AsXEs-115">
@@ -247,7 +262,7 @@
         <mxCell id="0b40yJRrr1ERWm2AsXEs-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-115" target="0b40yJRrr1ERWm2AsXEs-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-135" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0b40yJRrr1ERWm2AsXEs-134">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-135" value="&lt;span style=&quot;font-variant-ligatures: no-common-ligatures; background-color: rgb(248, 249, 250);&quot;&gt;否，没有小号或者小号没有加入执行群&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="0b40yJRrr1ERWm2AsXEs-134">
           <mxGeometry x="-0.563" y="2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -260,13 +275,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-115" value="机构端给达人绑定小号微信（商单维度）进入执行群里&lt;sup&gt;1&lt;/sup&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-115" value="机构端给达人绑定小号微信（商单维度）进入执行群里&lt;sup&gt;1&lt;/sup&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="2120" y="330" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-126" value="已加群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-126" value="已加群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1940" y="220" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-127" value="未加群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-127" value="未加群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2030" y="450" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-129" target="0b40yJRrr1ERWm2AsXEs-126">
@@ -277,14 +292,26 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-129" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;达人绑定的微信是否在微信群里1&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-129" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;达人绑定的微信是否在微信群里1&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1930" y="330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-141" value="不能加群&lt;br&gt;（未合作）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-141" value="不能加群&lt;br&gt;（未合作）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1650" y="450" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-145" value="&lt;ol&gt;&lt;li&gt;先去combcenter拿到已加群的用户信息，然后和koc绑定微信比对，然后的继续用koc这边设置的小号比对&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=10;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-145" value="&lt;ol&gt;&lt;li style=&quot;box-sizing: content-box; margin: 0px; padding: 0px; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);&quot;&gt;先去combcenter拿到已加群的用户信息，然后和koc绑定的微信比对，最后继续用koc这边设置的小号比对&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=10;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1670" y="140" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-154" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="300" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-155" value="查询可加群达人" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-156" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="210" width="340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-157" value="是否已加群规则" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="500" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
