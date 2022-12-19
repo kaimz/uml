@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T09:01:52.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="QkmW5pmiZ0svVIoZfIcM" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T09:34:13.810Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="DjyiZ6IISBQjV-aSZyeQ" version="20.7.4" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1146" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -725,6 +725,12 @@
         </mxCell>
         <mxCell id="wpq-IQUE76vI2y_NqtaI-161" value="外部微信群信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1830" y="1060" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wpq-IQUE76vI2y_NqtaI-162" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="970" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wpq-IQUE76vI2y_NqtaI-164" value="：为要迁移的表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2065" y="965" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
