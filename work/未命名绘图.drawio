@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T04:12:48.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="sMNVYWv9Co0kTGug-PWH" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-19T05:47:32.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" etag="mwOMPMYd0ScKBr9q3-qa" version="20.6.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="898" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-115" value="机构端给达人绑定小号微信（商单维度）进入执行群里" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-115" value="机构端给达人绑定小号微信（商单维度）进入执行群里&lt;sup&gt;1&lt;/sup&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="2120" y="330" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-126" value="已加群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;" vertex="1" parent="1">
@@ -277,14 +277,14 @@
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0b40yJRrr1ERWm2AsXEs-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;" edge="1" parent="1" source="0b40yJRrr1ERWm2AsXEs-129" target="0b40yJRrr1ERWm2AsXEs-127">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-129" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;达人绑定的微信是否在微信群里1&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="1930" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0b40yJRrr1ERWm2AsXEs-141" value="不能加群&lt;br&gt;（未合作）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1650" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0b40yJRrr1ERWm2AsXEs-145" value="&lt;ol&gt;&lt;li&gt;先去combcenter拿到已加群的用户信息，然后和koc绑定微信比对，然后的继续用koc这边设置的小号比对&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;fontSize=10;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="140" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
